@@ -10,53 +10,66 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Wed design</title>
 </head>
 
 <body>
-    <!-- <header class="header-container">
-        <nav class="navbar">
-            <img src="./media_assets/logo.png" alt="logo" id="brand">
-            <ul>
-                <li>Menu link</li>
-                <li>Menu link</li>
-                <li>Menu link</li>
-                <li>Menu link</li>
-                <li>Menu link</li>
-                <li>Menu link</li>
-                <li>Menu link</li>
-            </ul>
-        </nav>
-    </header> -->
-    <header>
-        <img src="./media_assets/logo.png" alt="logo" id="brand">
-        <nav class="desktop-nav">
-            <ul class="header-list">
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-            </ul>
-        </nav>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu header-list">
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
-                <li><a href="/">Menu link</a></li>
 
-            </ul>
+    <div class="header-container">
+        <header>
+            <img src="./media_assets/logo.png" alt="logo" id="brand">
+            <nav class="desktop-nav">
+                <ul class="header-list">
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu header-list">
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+                    <li><a href="/">Menu link</a></li>
+
+                </ul>
+            </div>
+        </header>
+    </div>
+    <section class="hero-section">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./media_assets/swiper_slide_1.jpg" alt="man holding baton" style="width:100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./media_assets/swiper_slide_2.jpg" alt="man holding baton" style="width:100%; ">
+            </div>
+
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
-    </header>
-    <section>
-        <img src="./media_assets/swiper_slide_1.jpg" alt="man holding baton">
-        <img src="./media_assets/swiper_slide_2.jpg" alt="man holding baton">
+
+
+        <!-- The dots/circles -->
+
     </section>
     <section>
         <h2>CONTENT MAIN TITLE</h2>
@@ -76,7 +89,7 @@
                 expedita accusantium.</p>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <div>
             <img src="./media_assets/pod_image_1.jpg" alt="baseball">
             <h3>POD MAIN TITLE</h3>
@@ -180,7 +193,7 @@
                 <span>Footer link</span>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="index.js"></script>
 </body>
 
