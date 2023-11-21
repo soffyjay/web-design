@@ -1,3 +1,4 @@
+/* Global style formatting */
 *{
     padding:0;
     margin:0;
@@ -6,6 +7,7 @@
     text-decoration: none;
 }
 
+/* Header styles */
 .header-container{
   background-color: rgb(103, 103, 103);
 }
@@ -106,7 +108,7 @@ height:30px;
   margin-bottom: 10px;
 }
 
-
+/* Hero section styles */
 .slideshow-container {
   width:100%;
   position: relative;
@@ -139,7 +141,7 @@ object-fit: cover;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -181,6 +183,8 @@ object-fit: cover;
   animation-duration: 1.5s;
   height:100%;
 }
+
+/* Main content styles */
 .title-container{
 display: flex;
 flex-direction: column;align-items: center;
@@ -288,6 +292,7 @@ margin-bottom: 25px;
   from {opacity: .4}
   to {opacity: 1}
 }
+/* Footer styles */
 footer{
   background-color: rgb(103, 103, 103);
   margin-top:60px;
@@ -297,7 +302,6 @@ footer{
 width: 550px;
    padding:20px 0px; 
    justify-content: space-between;
-  /* flex-direction: column; */
   margin: auto;
   flex-wrap: wrap;
   border-bottom: 1px solid rgb(166, 166, 166);
